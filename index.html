@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>
+            Ndeweneul
+        </title>
+    </head>
+    <body>
+       
+        <img class="blob_flow" src="image/blob2.svg">
+        <section class="main">
+            <section style="position: absolute; top: 30px;">
+                <img style="width: 40px;position: relative;top:30px" src="image/blob_13-6-70(1).svg">
+                <img style="width: 40px;" src="image/blob_13-6-70(1).svg">
+            </section>
+            <section onclick="BottomFunction()" class="contact_space">
+                <span style="color: #ffffff; font-weight: bold;">
+                    Contact
+                </span>
+                <img src="image/expand_more_white_24dp.svg">
+            </section>
+            <section class="second">
+                <section class="image">
+                    <img id="image_profil" src="image/image.jpeg">
+                </section>
+                <hr class="hr_line">
+               <section class="text_title">
+                    <span class="span_primary">
+                        Alioune Badara Diop
+                     </span> 
+                     <span class="span_second">
+                        Juriste in Senegal
+                     </span>
+                     <section style="margin-top: 1vh;">
+                        <img onclick="goFacebook()" class="social_network" src="image/icons8-facebook.svg"> 
+                        <img onclick="goLinkedin()" class="social_network" src="image/icons8-linkedin.svg">
+                        <img onclick="goTwitter()" class="social_network" src="image/icons8-twitter.svg">               
+                    </section>
+                
+               </section>
+               <section class="main_text">
+                <span class="title">
+                    <img style="width: 40px;" src="image/blob2.svg">
+                    Travail et Formation
+                </span>
+                <p>
+                Alioune Badara est juriste d'entreprise dans une compagnie financière ayant son siège sociale à Dakar et présente à Abidjan (Cote d'Ivoire), Bamako (Mali) et Conakry (République de Guinée). Il y occupe la fonction de responsable de la gouvernance.
+                </p>
+                <p>
+                Il est diplômé de la faculté de droit de l’Université Gaston Berger (Saint-Louis, Sénégal) d’un master en droit Économique et des affaires.
+                </p>
+                <p>
+                Alioune Badara fut capitaine de l'équipe qui représentait son Université lors de la 3ème édition du Concours Voix des Jeunes. Leur équipe remporta le concours aux niveaux national (Voix des Jeunes Sénégal) et régional (Voix des Jeunes Afrique). Il reçût le prix du Meilleur colibri (attribué au meilleur participant du concours).
+                </p>
+                <p>
+                Alioune Badara est le premier Sénégalais admis à l’Ecole Nationale d’Administration d'Egypte (National Training Academy) pour représenter le Sénégal au prestigieux African Presidential Leadership Program. Ce programme sponsorisé par le président 2019 l'Union Africaine fut est destiné aux jeunes leaders les plus remarquables du continent africain.
+            </p>
+                <span class="title">
+                    <img class="img_title" src="image/blob2.svg">
+                    Communauté
+                </span>
+                <p >
+                En termes de services à la communauté et vie associative, depuis 2014 Alioune Badara est membre du premier réseau mondial de jeunes citoyens actifs travaillant pour le changement positif des communautés, la Jeune Chambre Internationale (+200.000 membres). Affilié à l'organisation locale de Saint-Louis dont il fut membre fondateur, il y a occupé la plus haute fonction administrative de président local en 2018. Il continua sa carrière au niveau du Comité Directeur National de la JCI Sénégal en occupant les fonctions Conseiller Juridique Général. En 2020, il intègre le Comité Exécutif National pour servir en tant que Secrétaire Général National et reçut le prix du Meilleur Collaborateur du mandat 2020. Alioune Badara fut élu Vice-Président National pour le mandat 2021 en charge de la supervision de 122 membres répartis en de 03 organisations locales. (JCI Dakar Numéro 1, JCI Rufisque Renaissance et JCI Universitaire CESAG)
+                </p>
+                Sous le pseudonyme @albadaradi, il a une présence très active sur les réseaux sociaux avec: Environ 22,400 followers sur Twitter,
+                Environ 15,100 relations sur LinkedIn
+            </p>
+            <span class="title">
+                <img style="width: 40px;" src="image/blob2.svg">
+                Education
+            </span>
+            <p>
+                <img style="width: 10px;" src="image/blob2.svg">
+                Universite Gaston Berger, Sénégal
+                <br>
+                <img style="width: 10px;" src="image/blob2.svg">
+               National Training Academy, Egypt
+            </p>
+            </section>
+
+            <section id="contact">
+                <span style="  font-size: 30px;font-weight: bold;color: #fff;margin-top: 1vh;">
+                    Contact
+                </span>
+                <hr style="height: 2px;width: 30%;margin: 0 auto;background: white;border:none;">
+                <hr style="height: 2px;width: 30%;margin: 0 auto;background: white;border:none;">
+                <section id="form_message">
+                    <form method="POST">
+                        <section style="display: flex;align-items: center;flex-direction:column;">
+                            <section style="width: 90%;">
+                                <label for="email"> Nom</label><br>
+                                <input style="width: 90%;height: 4vh;" id="nom" type="text" name="nom">
+                            </section>
+                            <section style="width: 90%;">
+                                <label for="email"> Email</label><br>
+                                <input style="width: 90%;height: 4vh;" type="text" id="email" name="email">
+                            </section>
+                            <br>
+                            <section style="width: 90%;">  
+                                <label for="email"> Message</label><br>
+                                <textarea style="width: 92%;height: 9vh;" id="message" name="message">ENter your text</textarea>
+                            </section>
+                            <hr>
+                            <button type="submit" id="submit_button">
+                                Send
+                                <img style="width: 25px;" src="image/icons8-envoi-de-courriel-96.png">
+                            </button>
+                        </section>
+                    </form>
+                </section>
+               
+            </section>
+            </section>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
