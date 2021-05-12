@@ -213,7 +213,7 @@ label{
     }
 }
 
-@media screen and (max-width: 763px) and (min-width: 480px) 
+@media screen and (max-width: 763px) and (min-width: 375px) 
 {
     .blob_flow{
         display: content;
