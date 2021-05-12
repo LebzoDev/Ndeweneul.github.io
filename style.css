@@ -117,6 +117,19 @@ label{
     justify-content: space-around;
     align-items: center;
 }
+
+#nom{
+    width: 90%;
+    height: 4vh;
+}
+#email{
+    width: 90%;
+    height: 4vh;
+}
+#message{
+    width: 92%;
+    height: 9vh;
+}
 @media screen and (max-width: 1280px)
 {
     .blob_flow{
@@ -200,5 +213,70 @@ label{
         align-items: center;
         flex-direction: column;
         margin-top: 10vh;
+    }
+    .main{
+        width: 100%;
+        background: radial-gradient(circle,#0e2899 0%,  #0e2899 100%);
+        position:absolute;
+        padding-top: 2vh;
+    }
+    .second{
+        background-color: #f0ffff;
+        margin: 8vh auto;
+        border: 2px solid #f0ffff;
+    }
+    .image{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #image_profil{
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+    .title{
+        font-size: 25px;
+        font-weight: bold;
+        color: #0e2899;
+    }
+    .social_network{
+        margin: 0 10px;
+        width: 45px;
+    }
+    .main_text{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    #submit_button{
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 85%;
+        height: 50px;
+        cursor: pointer;
+        background-color:#f0ffff ;
+        border:2px solid #ffffff;
+    }
+    .img_title{
+        width: 30px;
+    }
+    #nom{
+        width: 90%;
+        height: 2vh;
+    }
+    #email{
+        width: 90%;
+        height: 2vh;
+    }
+    #message{
+        width: 92%;
+        height: 5vh;
     }
 }
