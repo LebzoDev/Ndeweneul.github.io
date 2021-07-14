@@ -2,21 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" href="style.css" />
         <title>
             Ndeweneul
         </title>
     </head>
     <body>
-       
+     
         <img class="blob_flow" src="image/blob2.svg">
         <section class="main">
-            <section style="position: absolute; top: 30px;">
-                <img style="width: 40px;position: relative;top:30px" src="image/blob_13-6-70(1).svg">
-                <img style="width: 40px;" src="image/blob_13-6-70(1).svg">
+            <section class="blob_contour">
+                <img id="blob_first" src="image/blob_13-6-70(1).svg">
+                <img id="blob_second" src="image/blob_13-6-70(1).svg">
             </section>
             <section onclick="BottomFunction()" class="contact_space">
-                <span style="color: #ffffff; font-weight: bold;">
+                <span id="contact">
                     Contact
                 </span>
                 <img src="image/expand_more_white_24dp.svg">
@@ -33,7 +34,7 @@
                      <span class="span_second">
                         Juriste in Senegal
                      </span>
-                     <section style="margin-top: 1vh;">
+                     <section class="social_network_area_section">
                         <img onclick="goFacebook()" class="social_network" src="image/icons8-facebook.svg"> 
                         <img onclick="goLinkedin()" class="social_network" src="image/icons8-linkedin.svg">
                         <img onclick="goTwitter()" class="social_network" src="image/icons8-twitter.svg">               
@@ -42,7 +43,7 @@
                </section>
                <section class="main_text">
                 <span class="title">
-                    <img style="width: 40px;" src="image/blob2.svg">
+                    <img class="width_blob_40" src="image/blob2.svg">
                     Travail et Formation
                 </span>
                 <p>
@@ -68,44 +69,44 @@
                 Environ 15,100 relations sur LinkedIn
             </p>
             <span class="title">
-                <img style="width: 40px;" src="image/blob2.svg">
+                <img class="width_blob_40" src="image/blob2.svg">
                 Education
             </span>
             <p>
-                <img style="width: 10px;" src="image/blob2.svg">
+                <img class="width_blob_10" src="image/blob2.svg">
                 Universite Gaston Berger, Sénégal
                 <br>
-                <img style="width: 10px;" src="image/blob2.svg">
+                <img class="width_blob_10" src="image/blob2.svg">
                National Training Academy, Egypt
             </p>
             </section>
 
             <section id="contact">
-                <span style="  font-size: 30px;font-weight: bold;color: #fff;margin-top: 1vh;">
+                <span class="contact_title">
                     Contact
                 </span>
-                <hr style="height: 2px;width: 30%;margin: 0 auto;background: white;border:none;">
-                <hr style="height: 2px;width: 30%;margin: 0 auto;background: white;border:none;">
+                <hr class="rupture_rh">
+                <hr class="rupture_rh">
                 <section id="form_message">
                     <form method="POST">
                         <section style="display: flex;align-items: center;flex-direction:column;">
-                            <section style="width: 90%;">
+                            <section class="width_field">
                                 <label for="email"> Nom</label><br>
                                 <input id="nom" type="text" name="nom">
                             </section>
-                            <section style="width: 90%;">
+                            <section class="width_field">
                                 <label for="email"> Email</label><br>
                                 <input type="text" id="email" name="email">
                             </section>
                             <br>
-                            <section style="width: 90%;">  
+                            <section class="width_field">  
                                 <label for="email"> Message</label><br>
                                 <textarea  id="message" name="message">ENter your text</textarea>
                             </section>
                             <hr>
                             <button type="submit" id="submit_button">
-                                Send
-                                <img style="width: 25px;" src="image/icons8-envoi-de-courriel-96.png">
+                                Envoyer
+                                <img class="send_icon" src="image/icons8-envoi-de-courriel-96.png">
                             </button>
                         </section>
                     </form>

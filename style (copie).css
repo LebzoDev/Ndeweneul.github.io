@@ -1,7 +1,7 @@
 .main{
     width: 70%;
     margin: 0 auto;
-    background:#0e2899;
+    background: radial-gradient(circle,#0e2899 0%,  #0e2899 100%);
     padding-top: 2vh;
 }
 p{
@@ -16,50 +16,6 @@ label{
     position: absolute;
     top:20vh;
     right: 25vw;
-}
-.blob_contour{
-    position: absolute;
-    top: 30px;
-}
-#blob_first{
-    width: 40px;
-    position: relative;
-    top:30px
-}
-#blob_second{
-    width: 40px;
-}
-#contact{
-    color: #ffffff;
-    font-weight: bold;
-}
-.social_network_area_section{
-    margin-top: 1vh;
-}
-.width_blob_40{
-    width: 40px;
-}
-.width_blob_10{
-    width: 10px;
-}
-.contact_title{
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 1vh;
-}
-.rupture_rh{
-    height: 2px;
-    width: 30%;
-    margin: 0 auto;
-    background: white;
-    border:none;
-}
-.width_field{
-    width: 90%;
-}
-.send_icon{
-    width: 25px;
 }
 .second{
     background-color: #f0ffff;
@@ -175,175 +131,6 @@ label{
     height: 9vh;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 764px) 
-{
-    .blob_contour{
-        position: absolute;
-        top: 30px;
-    }
-    .main{
-        width: 100%;
-        background:#0e2899;
-        position:absolute;
-        padding-top: 2vh;
-    }
-    .second{
-        background-color: #f0ffff;
-        margin: 8vh auto;
-        border: 2px solid #f0ffff;
-    }
-    .image{
-        width: 100%;
-        height: 5vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-    .image_profil{
-        width: 210px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.25);
-        margin-top: 5vh;
-    }
-    .hr_line{
-        margin: 0;
-        height: 7px;
-        background-color: #0e2899;
-        border:none;
-    }
-    .text_title{
-        width: 100%;
-        color: #0e2899;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 13vh;
-    }
-    .title{
-        font-size: 25px;
-        font-weight: bold;
-        color: #0e2899;
-    }
-    .social_network{
-        margin: 0 10px;
-        width: 45px;
-    }
-    .main_text{
-        width: 90%;
-        margin: 0 auto;
-        font-size: 15px;
-    }
-    #submit_button{
-        margin-right: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 5px;
-        width: 85%;
-        height: 50px;
-        cursor: pointer;
-        background-color:#f0ffff ;
-        border:2px solid #ffffff;
-    }
-    .img_title{
-        width: 30px;
-    }
-    #message{
-        width: 92%;
-        height: 9vh;
-    }
-    .span_primary{
-        color:red;
-        font-size: 25px;
-        font-weight: bold;
-    }
-}
-
-
-
-@media screen and (max-width: 763px) and (min-width: 480px) 
-{
-    .blob_flow{
-        display: content;
-    }
-    .main{
-        width: 100%;
-        background: radial-gradient(circle,#0e2899 0%,  #0e2899 100%);
-        position:absolute;
-        padding-top: 2vh;
-    }
-    .second{
-        background-color: #f0ffff;
-        margin: 8vh auto;
-        border: 2px solid #f0ffff;
-    }
-    .image{
-        width: 100%;
-        height: 5vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .image_profil{
-        width: 180px;
-        border-radius: 50%;
-        border: 2px solid #fff;
-        box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.25);
-        margin-top: 2vh;
-    }
-    .hr_line{
-        margin: 0;
-        height: 7px;
-        background-color: #0e2899;
-        border:none;
-    }
-    .text_title{
-        width: 100%;
-        color: #0e2899;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 10vh;
-    }
-    .title{
-        font-size: 25px;
-        font-weight: bold;
-        color: #0e2899;
-    }
-    .social_network{
-        margin: 0 10px;
-        width: 45px;
-    }
-    .main_text{
-        width: 90%;
-        margin: 0 auto;
-        font-size: 15px;
-    }
-    #submit_button{
-        margin-right: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 5px;
-        width: 85%;
-        height: 50px;
-        cursor: pointer;
-        background-color:#f0ffff ;
-        border:2px solid #ffffff;
-    }
-    .img_title{
-        width: 30px;
-    }
-    #message{
-        width: 92%;
-        height: 9vh;
-    }
-    
-}
 
 @media screen and (max-width: 480px) 
 {
@@ -426,3 +213,161 @@ label{
     }
 }
 
+@media screen and (max-width: 763px) and (min-width: 480px) 
+{
+    .blob_flow{
+        display: content;
+    }
+    .main{
+        width: 100%;
+        background: radial-gradient(circle,#0e2899 0%,  #0e2899 100%);
+        position:absolute;
+        padding-top: 2vh;
+    }
+    .second{
+        background-color: #f0ffff;
+        margin: 8vh auto 0;
+        border: 2px solid #f0ffff;
+    }
+    .image{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image_profil{
+        width: 300px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+    .hr_line{
+        margin: 0;
+        height: 7px;
+        background-color: #0e2899;
+        border:none;
+    }
+    .text_title{
+        width: 100%;
+        color: #0e2899;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+    .title{
+        font-size: 25px;
+        font-weight: bold;
+        color: #0e2899;
+    }
+    .social_network{
+        margin: 0 10px;
+        width: 45px;
+    }
+    .main_text{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    #submit_button{
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 85%;
+        height: 50px;
+        cursor: pointer;
+        background-color:#f0ffff ;
+        border:2px solid #ffffff;
+    }
+    .img_title{
+        width: 30px;
+    }
+    #message{
+        width: 92%;
+        height: 9vh;
+    }
+    
+}
+@media screen and (max-width: 1280px) and (min-width: 764px) 
+{
+    .blob_flow{
+        display: content;
+    }
+    .main{
+        width: 100%;
+        background: radial-gradient(circle,#0e2899 0%,  #0e2899 100%);
+        position:absolute;
+        padding-top: 2vh;
+    }
+    .second{
+        background-color: #f0ffff;
+        margin: 8vh auto 0;
+        border: 2px solid #f0ffff;
+    }
+    .image{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image_profil{
+        width: 250px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        box-shadow: 8px 8px 8px 2px rgba(0, 0, 0, 0.25)
+    }
+    .hr_line{
+        margin: 0;
+        height: 7px;
+        background-color: #0e2899;
+        border:none;
+    }
+    .text_title{
+        width: 100%;
+        color: #0e2899;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 7vh;
+    }
+    .title{
+        font-size: 25px;
+        font-weight: bold;
+        color: #0e2899;
+    }
+    .social_network{
+        margin: 0 10px;
+        width: 45px;
+    }
+    .main_text{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    #submit_button{
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        width: 85%;
+        height: 50px;
+        cursor: pointer;
+        background-color:#f0ffff ;
+        border:2px solid #ffffff;
+    }
+    .img_title{
+        width: 30px;
+    }
+    #message{
+        width: 92%;
+        height: 9vh;
+    }
+    
+}
