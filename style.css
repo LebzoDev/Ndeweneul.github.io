@@ -256,7 +256,6 @@ label{
         height: 9vh;
     }
     .span_primary{
-        color:red;
         font-size: 25px;
         font-weight: bold;
     }
@@ -352,7 +351,7 @@ label{
     }
     .text_title{
         width: 100%;
-        color: red;
+        color: #0e2899;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -423,6 +422,14 @@ label{
     #message{
         width: 92%;
         height: 5vh;
+    }
+    #blob_first{
+        width: 30px;
+        position: relative;
+        top:30px
+    }
+    #blob_second{
+        width: 30px;
     }
 }
 
